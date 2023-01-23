@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>FEEDBACK</head>
+<style>
+    body
+    {
+        background-image: url("fed1.jpg");
+    }
+    .div1
+    {
+        width: 350px;
+        margin: auto;
+        margin: 10 0 0 450px;
+        overflow: hidden;
+        padding: 75px;
+        background: #003300;
+    }
+    h2
+    {
+        text-align: center;
+        padding: 10px;
+        color: white;
+    }
+    label
+    {
+        color: white;
+        padding-left: 10px;
+
+    }
+    .inputtext
+    {
+        color: black;
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 2px;
+        padding-left: 8px;
+    }
+    #submitbutton
+    {
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        padding-left: 7px;
+        color: black;
+        font-size: 16px;
+    }
+</style>
+<body>
+    <h2>GIVE YOUR FEEDBACK</h2>
+    <div class="div1">
+        <form name="my form" method="post">
+            <label>NAME</label>
+            <input type="text" name="FULL NAME" class="inputtext" placeholder="username">
+            <br><br>
+            <label>MOBILE NUMBER</label>
+            <input type="number" name="MOBILE NUMBER" class="inputtext" placeholder="Ph number">
+            <br><br>
+            <lable>MAIL ID</lable>
+            <input type="email" name="MAIL ID" class="inputtext" placeholder="mail id">
+            <br><br>
+            <label>FEEDBACK</label>
+            <input type="text" name="FEEDBACK" class="inputtext" placeholder="FEEDBACK">
+            <br><br>
+            <a href="mailto:shankarramesh2107@gmail.com?subject=MY subject line"target="_blank">SUBMITBUTTON</a><input type="button" name="SUBMIT" id="SUBMITBUTTON" value="SUBMIT" onclick="myFunction()">
+            <br><br>
+        </form>
+    </div>
+</body>
